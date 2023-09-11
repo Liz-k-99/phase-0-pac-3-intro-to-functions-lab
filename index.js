@@ -19,14 +19,14 @@ const logWhisper = (string) => {
 logWhisper('hello');
 
 const sayHiToHeadphonedRoommate = (string) => {
-    if (string.toLowerCase() === 'hello') {
-        console.log("I can't hear you!"); 
-    } else if (string.toUpperCase() === "HELLO") {
-        console.log("YES INDEED!");
-    } else if (string === `let's have dinner together!`) {
-        console.log('I would love to!');
+    if (string.toLowerCase() === string) {
+        return "I can't hear you!"; 
+    } else if (string.toUpperCase() === string) {
+        return "YES INDEED!";
+    } else if (string === `Let's have dinner together!`) {
+        return 'I would love to!';
     }
 };
 
-sayHiToHeadphonedRoommate(`HELLO`);
+//sayHiToHeadphonedRoommate(`HELLO`);
 
