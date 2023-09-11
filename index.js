@@ -1,7 +1,7 @@
-const shout = () => {
-    return 'hello'.toUpperCase();
+const shout = (string) => {
+    return string.toUpperCase();
 };
-console.log(shout());
+console.log(shout('hello'));
 
 const whisper = (string) => {
     return string.toLowerCase();
